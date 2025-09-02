@@ -1,1 +1,23 @@
 /* Your CSS here. */
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.card {
+    color: white;
+    background-color: rgba(216, 32, 32, 0.821);
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
